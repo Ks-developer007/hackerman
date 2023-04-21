@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+    
+}
+body{
+    background-color: black;
+    color: rgb(90, 255, 90);;
+}
+
+header{
+    min-height: 30%;
+    width: 100%;
+    box-shadow: inset 13px 5px 20px 15px rgba(8, 79, 8, 0.724);
+}
+header h1{
+    text-align: center;
+    padding: 1rem;
+
+
+}
+.para{
+    width: 89%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-bottom: 2rem;
+}
+
+.target{
+    text-align: center;
+    padding: 6px 4px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 8px;
+    width: 25%;
+    margin: 13px auto;
+
+}
+.container{
+    border: 2px solid rgb(90, 255, 90);
+    width: 70%;
+    margin: 2rem auto;
+
+}
+.btn{
+    margin: 1rem;
+}
+.button{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 8em;
+    height: 1.7em;
+    color: rgb(138, 222, 147);
+    background-color: rgb(22, 93, 22);
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 2px rgb(198, 255, 204);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.button:hover{
+    color: rgb(22, 93, 22);
+    background-color: rgb(138, 222, 147);
+    box-shadow: 0 0 5px rgb(220, 255, 224);
+
+}
+.input_box{
+    margin: 1em;
+    border: 1px solid green;
+    border-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.output_box{
+    margin: 1em;
+    min-height: 20em;
+    border: 1px solid green;
+    border-radius: 0.4em;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    padding: 2rem;
+}
+.button2{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 8em;
+    height: 1.7em;
+    color: rgb(138, 222, 147);
+    background-color: rgb(22, 93, 22);
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 2px rgb(198, 255, 204);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.button2:hover{
+    color: rgb(22, 93, 22);
+    background-color: rgb(138, 222, 147);
+    box-shadow: 0 0 5px rgb(220, 255, 224);
+}
